@@ -1,13 +1,8 @@
 const spices = [
   {
     name: "Red Chili Powder (Lal Mirch)",
-  image: "assets/images/red-chili.png",
+  image: "assets/images/Red-chili.png",
     description: "Premium red chili powder for vibrant color and spicy flavor."
-  },
-  {
-    name: "Kashmiri Chili Powder",
-  image: "assets/images/kashmiri-chili.jpg",
-    description: "Kashmiri chili powder for rich color and mild spice."
   },
    {
     name: "Turmeric Powder",
@@ -16,7 +11,7 @@ const spices = [
   },
   {
     name: "Coriander Powder (Dhania)",
-  image: "assets/images/coriander.png",
+  image: "assets/images/Coriander.png",
     description: "Aromatic coriander powder, perfect for curries and garnishing."
   },
   {
@@ -36,13 +31,18 @@ const spices = [
   },
   {
     name: "Sabji Masala",
-  image: "assets/images/kitchen-king.jpg",
+  image: "assets/images/sabji.png",
+    description: "Versatile Sabji masala for all vegetable dishes."
+  },
+   {
+    name: "Kitchen King Masala",
+  image: "assets/images/kitchen-king.png",
     description: "Versatile Sabji masala for all vegetable dishes."
   },
   {
-    name: "Amchur Powder (Dry Mango)",
-  image: "assets/images/amchur.jpg",
-    description: "Tangy amchur powder made from dried mango."
+    name: "Kasuri Methi",
+  image: "assets/images/kasuri.png",
+    description: "Kasuri methi powder made from dried Kasuri."
   }
 ];
 
