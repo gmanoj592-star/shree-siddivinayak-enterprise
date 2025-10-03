@@ -1,17 +1,17 @@
 body {
     font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
-    background: linear-gradient(120deg, #f8f6f2 0%, #fffbe6 100%);
+    background: linear-gradient(120deg, #eae6da 0%, #f7f3e3 100%);
     margin: 0;
-    color: #2d2d2d;
+    color: #1a2340;
     min-height: 100vh;
     overflow-x: hidden;
 }
 header {
-    background: linear-gradient(90deg, #a67c52 60%, #ffd700 100%);
+    background: linear-gradient(90deg, #1a2340 60%, #d4af37 100%);
     color: #fff;
     padding: 2.5rem 0 1.5rem 0;
     text-align: center;
-    box-shadow: 0 2px 16px rgba(166,124,82,0.18);
+    box-shadow: 0 2px 16px rgba(26,35,64,0.18);
     position: relative;
     z-index: 2;
 }
@@ -19,27 +19,27 @@ header {
     font-family: 'Playfair Display', serif;
     font-size: 2.8rem;
     letter-spacing: 2px;
-    text-shadow: 0 0 18px #ffd700, 0 2px 8px #a67c52;
+    text-shadow: 0 0 18px #d4af37, 0 2px 8px #1a2340;
     margin-bottom: 0.2rem;
     animation: glow 2s ease-in-out infinite alternate;
 }
 @keyframes glow {
-    from { text-shadow: 0 0 18px #ffd700, 0 2px 8px #a67c52; }
-    to { text-shadow: 0 0 32px #ffd700, 0 2px 16px #a67c52; }
+    from { text-shadow: 0 0 18px #d4af37, 0 2px 8px #1a2340; }
+    to { text-shadow: 0 0 32px #d4af37, 0 2px 16px #1a2340; }
 }
 .subtitle {
     font-size: 1.3rem;
     font-weight: 400;
     margin-top: 0.5rem;
     letter-spacing: 1.5px;
-    color: #fffbe6;
-    text-shadow: 0 1px 8px #a67c52;
+    color: #f7f3e3;
+    text-shadow: 0 1px 8px #d4af37;
 }
 nav {
     margin-top: 1.2rem;
 }
 nav a {
-    color: #fff;
+    color: #f7f3e3;
     text-decoration: none;
     margin: 0 1.5rem;
     font-weight: 600;
@@ -50,9 +50,9 @@ nav a {
     transition: background 0.2s, color 0.2s, box-shadow 0.2s;
 }
 nav a:hover {
-    color: #a67c52;
-    background: #ffd700;
-    box-shadow: 0 2px 8px #ffd70044;
+    color: #1a2340;
+    background: #d4af37;
+    box-shadow: 0 2px 8px #d4af3744;
 }
 main {
     max-width: 1200px;
@@ -61,17 +61,18 @@ main {
 }
 section {
     margin-bottom: 2.5rem;
-    background: #fff;
+    background: #f7f3e3;
     border-radius: 18px;
-    box-shadow: 0 4px 24px rgba(166,124,82,0.10);
+    box-shadow: 0 4px 24px rgba(26,35,64,0.10);
     padding: 2.5rem 2rem;
     position: relative;
     overflow: hidden;
     transition: box-shadow 0.3s;
 }
 section:hover {
-    box-shadow: 0 8px 32px rgba(166,124,82,0.18);
+    box-shadow: 0 8px 32px #d4af3744;
 }
+/* Spice Catalog Grid */
 /* Spice Catalog Grid */
 .spices-list {
     display: grid;
@@ -80,13 +81,13 @@ section:hover {
     margin-top: 2rem;
 }
 .spice-card {
-    background: linear-gradient(120deg, #fffbe6 60%, #f8f6f2 100%);
-    border: 1.5px solid #e2c799;
+    background: linear-gradient(120deg, #eae6da 60%, #f7f3e3 100%);
+    border: 2px solid #d4af37;
     border-radius: 16px;
-    box-shadow: 0 2px 12px rgba(166,124,82,0.10);
+    box-shadow: 0 2px 12px rgba(26,35,64,0.10);
     padding: 2rem 1.5rem;
     text-align: center;
-    transition: box-shadow 0.3s, transform 0.3s;
+    transition: box-shadow 0.3s, transform 0.3s, border-color 0.3s;
     position: relative;
     overflow: hidden;
     opacity: 0;
@@ -97,9 +98,9 @@ section:hover {
     transform: translateY(0);
 }
 .spice-card:hover {
-    box-shadow: 0 8px 32px #ffd70044;
+    box-shadow: 0 8px 32px #d4af3744;
     transform: scale(1.04) rotate(-1deg);
-    border-color: #ffd700;
+    border-color: #1a2340;
 }
 .spice-card img {
     width: 90px;
@@ -108,31 +109,31 @@ section:hover {
     margin-bottom: 1.2rem;
     border-radius: 50%;
     background: #fff;
-    border: 2px solid #ffd700;
-    box-shadow: 0 2px 12px #ffd70022;
+    border: 2px solid #d4af37;
+    box-shadow: 0 2px 12px #d4af3722;
     transition: box-shadow 0.3s, border-color 0.3s;
 }
 .spice-card:hover img {
-    box-shadow: 0 4px 24px #ffd70066;
-    border-color: #a67c52;
+    box-shadow: 0 4px 24px #d4af3766;
+    border-color: #1a2340;
 }
 .spice-card h3 {
     margin: 0.7rem 0 0.4rem 0;
     font-size: 1.18rem;
-    color: #a67c52;
+    color: #1a2340;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
 .spice-card p {
     font-size: 1.02rem;
-    color: #555;
+    color: #3a3a3a;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 0.2rem;
 }
 footer {
-    background: linear-gradient(90deg, #a67c52 60%, #ffd700 100%);
-    color: #fff;
+    background: linear-gradient(90deg, #1a2340 60%, #d4af37 100%);
+    color: #f7f3e3;
     text-align: center;
     padding: 1.2rem 0;
     position: relative;
@@ -140,5 +141,5 @@ footer {
     width: 100%;
     font-size: 1rem;
     letter-spacing: 1px;
-    box-shadow: 0 -2px 12px #a67c5222;
+    box-shadow: 0 -2px 12px #1a234022;
 }
