@@ -85,13 +85,17 @@ section:hover {
     border: 2px solid #d4af37;
     border-radius: 16px;
     box-shadow: 0 2px 12px rgba(26,35,64,0.10);
-    padding: 2rem 1.5rem;
+    padding: 0;
     text-align: center;
     transition: box-shadow 0.3s, transform 0.3s, border-color 0.3s;
     position: relative;
     overflow: hidden;
     opacity: 0;
     transform: translateY(40px);
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 .spice-card.animated {
     opacity: 1;
@@ -103,33 +107,48 @@ section:hover {
     border-color: #1a2340;
 }
 .spice-card img {
-    width: 90px;
-    height: 90px;
-    object-fit: contain;
-    margin-bottom: 1.2rem;
-    border-radius: 50%;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 16px 16px 0 0;
+    margin: 0;
     background: #fff;
-    border: 2px solid #d4af37;
-    box-shadow: 0 2px 12px #d4af3722;
-    transition: box-shadow 0.3s, border-color 0.3s;
-}
-.spice-card:hover img {
-    box-shadow: 0 4px 24px #d4af3766;
-    border-color: #1a2340;
+    border: none;
+    box-shadow: none;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 .spice-card h3 {
-    margin: 0.7rem 0 0.4rem 0;
-    font-size: 1.18rem;
-    color: #1a2340;
-    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 1.35rem;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
+    background: linear-gradient(120deg, rgba(26,35,64,0.7) 60%, rgba(212,175,55,0.5) 100%);
+    border-radius: 16px 16px 0 0;
+    z-index: 2;
+    text-shadow: 0 2px 12px #000, 0 0px 8px #d4af37;
+    opacity: 0.95;
 }
 .spice-card p {
     font-size: 1.02rem;
     color: #3a3a3a;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 0.2rem;
+    margin-top: 190px;
+    padding: 0 1rem;
 }
 footer {
     background: linear-gradient(90deg, #1a2340 60%, #d4af37 100%);
