@@ -1,7 +1,7 @@
 const spices = [
   {
     name: "Red Chili Powder (Lal Mirch)",
-  image: "assets/images/red-chili.jpg",
+  image: "assets/images/red-chili.png",
     description: "Premium red chili powder for vibrant color and spicy flavor."
   },
   {
@@ -16,48 +16,28 @@ const spices = [
   },
   {
     name: "Coriander Powder (Dhania)",
-  image: "assets/images/coriander.jpg",
+  image: "assets/images/coriander.png",
     description: "Aromatic coriander powder, perfect for curries and garnishing."
   },
   {
     name: "Cumin Powder (Jeera)",
-  image: "assets/images/cumin.jpg",
+  image: "assets/images/cumin-powder.png",
     description: "Earthy cumin powder, essential for Indian and global cuisines."
   },
   {
     name: "Black Pepper Powder",
-  image: "assets/images/black-pepper.jpg",
+  image: "assets/images/Black-peper.png",
     description: "Finely ground black pepper for a spicy kick."
   },
   {
     name: "Garam Masala",
-  image: "assets/images/garam-masala.jpg",
+  image: "assets/images/garam-masala.png",
     description: "Classic garam masala blend for rich, aromatic flavor."
   },
   {
-    name: "Chaat Masala",
-  image: "assets/images/chaat-masala.jpg",
-    description: "Tangy chaat masala to spice up snacks and salads."
-  },
-  {
-    name: "Kitchen King Masala",
+    name: "Sabji Masala",
   image: "assets/images/kitchen-king.jpg",
-    description: "Versatile Kitchen King masala for all vegetable dishes."
-  },
-  {
-    name: "Curry Powder",
-  image: "assets/images/curry-powder.jpg",
-    description: "A Western-style curry powder for global recipes."
-  },
-  {
-    name: "Asafoetida (Hing)",
-  image: "assets/images/asafoetida.jpg",
-    description: "Strong and aromatic asafoetida, used in small quantities."
-  },
-  {
-    name: "Dry Ginger Powder (Saunth)",
-  image: "assets/images/dry-ginger.jpg",
-    description: "Pure dry ginger powder for warmth and flavor."
+    description: "Versatile Sabji masala for all vegetable dishes."
   },
   {
     name: "Amchur Powder (Dry Mango)",
