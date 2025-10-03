@@ -81,10 +81,10 @@ section:hover {
     margin-top: 2rem;
 }
 .spice-card {
-    background: linear-gradient(120deg, #eae6da 60%, #f7f3e3 100%);
-    border: 2px solid #d4af37;
-    border-radius: 16px;
-    box-shadow: 0 2px 12px rgba(26,35,64,0.10);
+    background: #fff;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 14px;
+    box-shadow: 0 4px 24px rgba(40,60,90,0.08);
     padding: 0;
     text-align: center;
     transition: box-shadow 0.3s, transform 0.3s, border-color 0.3s;
@@ -103,43 +103,44 @@ section:hover {
     transform: translateY(0);
 }
 .spice-card:hover {
-    box-shadow: 0 8px 32px #d4af3744;
-    transform: scale(1.04) rotate(-1deg);
-    border-color: #1a2340;
+    box-shadow: 0 8px 32px #1a234044;
+    transform: scale(1.03);
+    border-color: #d4af37;
 }
 .spice-card img {
     width: 100%;
-    height: 220px;
+    height: 200px;
     object-fit: cover;
-    border-radius: 16px 16px 0 0;
+    border-radius: 14px 14px 0 0;
     margin: 0;
-    background: #fff;
+    background: #f7f7f7;
     border: none;
-    box-shadow: 0 2px 16px #d4af3722;
+    box-shadow: 0 2px 8px #e0e0e0;
     display: block;
     position: relative;
     z-index: 1;
 }
 .spice-card h3 {
     margin: 0;
-    font-size: 1.25rem;
-    color: #fff;
-    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    color: #1a2340;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    letter-spacing: 1.5px;
-    background: linear-gradient(90deg, #1a2340 60%, #d4af37 100%);
-    border-radius: 0 0 16px 16px;
-    padding: 0.8rem 0;
+    letter-spacing: 1.2px;
+    background: #f7f7f7;
+    border-radius: 0 0 14px 14px;
+    padding: 0.7rem 0;
     z-index: 2;
-    text-shadow: 0 2px 12px #000, 0 0px 8px #d4af37;
-    opacity: 0.98;
+    text-shadow: none;
+    opacity: 1;
+    border-top: 1px solid #e0e0e0;
 }
 .spice-card p {
-    font-size: 1.02rem;
-    color: #3a3a3a;
+    font-size: 0.98rem;
+    color: #444;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 0.2rem;
-    margin-top: 0.8rem;
+    margin-top: 0.7rem;
     padding: 0 1rem;
 }
 footer {
