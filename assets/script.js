@@ -37,7 +37,7 @@ const spices = [
    {
     name: "Kitchen King Masala",
   image: "assets/images/kitchen-king.png",
-    description: "Versatile Sabji masala for all vegetable dishes."
+    description: "Versatile kitchen-king masala for all vegetable dishes."
   },
   {
     name: "Kasuri Methi",
