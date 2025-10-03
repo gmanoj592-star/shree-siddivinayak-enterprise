@@ -1,13 +1,13 @@
 body {
     font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
-    background: linear-gradient(120deg, #eae6da 0%, #f7f3e3 100%);
+    background: linear-gradient(120deg, #e3eafc 0%, #f7fafd 100%);
     margin: 0;
     color: #1a2340;
     min-height: 100vh;
     overflow-x: hidden;
 }
 header {
-    background: linear-gradient(90deg, #1a2340 60%, #d4af37 100%);
+    background: linear-gradient(90deg, #1a2340 60%, #3a7bd5 100%);
     color: #fff;
     padding: 2.5rem 0 1.5rem 0;
     text-align: center;
@@ -81,10 +81,10 @@ section:hover {
     margin-top: 2rem;
 }
 .spice-card {
-    background: #fff;
-    border: 1.5px solid #e0e0e0;
-    border-radius: 14px;
-    box-shadow: 0 4px 24px rgba(40,60,90,0.08);
+    background: #f7fafd;
+    border: 2.5px solid #3a7bd5;
+    border-radius: 18px;
+    box-shadow: 0 6px 32px rgba(58,123,213,0.10);
     padding: 0;
     text-align: center;
     transition: box-shadow 0.3s, transform 0.3s, border-color 0.3s;
@@ -103,37 +103,37 @@ section:hover {
     transform: translateY(0);
 }
 .spice-card:hover {
-    box-shadow: 0 8px 32px #1a234044;
-    transform: scale(1.03);
+    box-shadow: 0 12px 40px #3a7bd544;
+    transform: scale(1.04);
     border-color: #d4af37;
 }
 .spice-card img {
     width: 100%;
-    height: 200px;
+    height: 220px;
     object-fit: cover;
-    border-radius: 14px 14px 0 0;
+    border-radius: 16px;
     margin: 0;
-    background: #f7f7f7;
-    border: none;
-    box-shadow: 0 2px 8px #e0e0e0;
+    background: #fff;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 16px #3a7bd522, 0 0 0 8px #f7fafd;
     display: block;
     position: relative;
     z-index: 1;
 }
 .spice-card h3 {
     margin: 0;
-    font-size: 1.15rem;
-    color: #1a2340;
+    font-size: 1.18rem;
+    color: #3a7bd5;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     letter-spacing: 1.2px;
-    background: #f7f7f7;
-    border-radius: 0 0 14px 14px;
-    padding: 0.7rem 0;
+    background: #fff;
+    border-radius: 0 0 16px 16px;
+    padding: 0.8rem 0 0.5rem 0;
     z-index: 2;
-    text-shadow: none;
+    text-shadow: 0 2px 8px #e3eafc;
     opacity: 1;
-    border-top: 1px solid #e0e0e0;
+    border-top: 2px solid #3a7bd5;
 }
 .spice-card p {
     font-size: 0.98rem;
@@ -144,8 +144,8 @@ section:hover {
     padding: 0 1rem;
 }
 footer {
-    background: linear-gradient(90deg, #1a2340 60%, #d4af37 100%);
-    color: #f7f3e3;
+    background: linear-gradient(90deg, #1a2340 60%, #3a7bd5 100%);
+    color: #f7fafd;
     text-align: center;
     padding: 1.2rem 0;
     position: relative;
