@@ -1,42 +1,42 @@
 const spices = [
   {
     name: "Coriander Powder",
-  image: "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=120&h=120&fit=crop",
+  image: "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=120&h=120&fit=crop", // Coriander
     description: "Aromatic and fresh coriander powder, perfect for curries and garnishing."
   },
   {
     name: "Red Chilli Powder",
-  image: "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=120&h=120&fit=crop",
+  image: "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=120&h=120&fit=crop", // Red Chilli
     description: "Premium red chilli powder for vibrant color and spicy flavor."
   },
   {
     name: "Turmeric Powder",
-  image: "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=120&h=120&fit=crop",
+  image: "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=120&h=120&fit=crop", // Turmeric
     description: "Pure turmeric powder, rich in color and health benefits."
   },
   {
     name: "Cumin Powder",
-  image: "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=120&h=120&fit=crop",
+  image: "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=120&h=120&fit=crop", // Cumin
     description: "Earthy cumin powder, essential for Indian and global cuisines."
   },
   {
     name: "Sabji Masala",
-  image: "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=120&h=120&fit=crop",
+  image: "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=120&h=120&fit=crop", // Sabji Masala
     description: "Special blend for vegetable dishes, adds authentic taste."
   },
   {
     name: "Kabab Masala",
-  image: "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=120&h=120&fit=crop",
+  image: "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=120&h=120&fit=crop", // Kabab Masala
     description: "Flavorful kabab masala for perfect grilled and tandoori kababs."
   },
   {
     name: "Chicken Masala",
-  image: "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=120&h=120&fit=crop",
+  image: "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=120&h=120&fit=crop", // Chicken Masala
     description: "Rich chicken masala for delicious and aromatic chicken curries."
   },
   {
     name: "Chat Masala",
-  image: "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=120&h=120&fit=crop",
+  image: "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=120&h=120&fit=crop", // Chat Masala
     description: "Tangy chat masala to spice up snacks and salads."
   }
 ];
