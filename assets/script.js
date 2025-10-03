@@ -11,7 +11,7 @@ const spices = [
   },
    {
     name: "Turmeric Powder",
-    image: "assets/images/Turmeric.jpeg?auto=format&fit=crop&w=120&q=80",
+    image: "assets/images/Turmeric.png?auto=format&fit=crop&w=120&q=80",
     description: "Turmeric powder for rich color and mild spice."
   },
   {
