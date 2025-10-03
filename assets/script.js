@@ -1,67 +1,67 @@
 const spices = [
   {
     name: "Red Chili Powder (Lal Mirch)",
-    image: "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=120&q=80",
+  image: "assets/images/red-chili.jpg",
     description: "Premium red chili powder for vibrant color and spicy flavor."
   },
   {
     name: "Kashmiri Chili Powder",
-    image: "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=120&q=80",
+  image: "assets/images/kashmiri-chili.jpg",
     description: "Kashmiri chili powder for rich color and mild spice."
   },
    {
     name: "Turmeric Powder",
-    image: "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=120&q=80",
+    image: "assets/images/Turmeric.png?auto=format&fit=crop&w=120&q=80",
     description: "Turmeric powder for rich color and mild spice."
   },
   {
     name: "Coriander Powder (Dhania)",
-    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=120&q=80",
+  image: "assets/images/coriander.jpg",
     description: "Aromatic coriander powder, perfect for curries and garnishing."
   },
   {
     name: "Cumin Powder (Jeera)",
-    image: "https://images.unsplash.com/photo-1464306076886-debede6bbf09?auto=format&fit=crop&w=120&q=80",
+  image: "assets/images/cumin.jpg",
     description: "Earthy cumin powder, essential for Indian and global cuisines."
   },
   {
     name: "Black Pepper Powder",
-    image: "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=120&q=80",
+  image: "assets/images/black-pepper.jpg",
     description: "Finely ground black pepper for a spicy kick."
   },
   {
     name: "Garam Masala",
-    image: "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=120&q=80",
+  image: "assets/images/garam-masala.jpg",
     description: "Classic garam masala blend for rich, aromatic flavor."
   },
   {
     name: "Chaat Masala",
-    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=120&q=80",
+  image: "assets/images/chaat-masala.jpg",
     description: "Tangy chaat masala to spice up snacks and salads."
   },
   {
     name: "Kitchen King Masala",
-    image: "https://images.unsplash.com/photo-1464306076886-debede6bbf09?auto=format&fit=crop&w=120&q=80",
+  image: "assets/images/kitchen-king.jpg",
     description: "Versatile Kitchen King masala for all vegetable dishes."
   },
   {
     name: "Curry Powder",
-    image: "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=120&q=80",
+  image: "assets/images/curry-powder.jpg",
     description: "A Western-style curry powder for global recipes."
   },
   {
     name: "Asafoetida (Hing)",
-    image: "https://images.unsplash.com/photo-1464306076886-debede6bbf09?auto=format&fit=crop&w=120&q=80",
+  image: "assets/images/asafoetida.jpg",
     description: "Strong and aromatic asafoetida, used in small quantities."
   },
   {
     name: "Dry Ginger Powder (Saunth)",
-    image: "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=120&q=80",
+  image: "assets/images/dry-ginger.jpg",
     description: "Pure dry ginger powder for warmth and flavor."
   },
   {
     name: "Amchur Powder (Dry Mango)",
-    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=120&q=80",
+  image: "assets/images/amchur.jpg",
     description: "Tangy amchur powder made from dried mango."
   }
 ];
