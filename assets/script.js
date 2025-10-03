@@ -44,7 +44,7 @@ const spices = [
 function loadSpices() {
   const container = document.getElementById("spices-list");
   container.innerHTML = "";
-  spices.forEach(spice => {
+  spices.forEach((spice, i) => {
     const card = document.createElement("div");
     card.className = "spice-card";
     card.innerHTML = `
@@ -53,7 +53,22 @@ function loadSpices() {
       <p>${spice.description}</p>
     `;
     container.appendChild(card);
+    // Animate each card in sequence
+    setTimeout(() => {
+      card.classList.add('animated');
+    }, 120 * i);
   });
+  // Add hover effect with GSAP
+  setTimeout(() => {
+    document.querySelectorAll('.spice-card').forEach(card => {
+      card.addEventListener('mouseenter', () => {
+        gsap.to(card, {scale: 1.07, boxShadow: '0 8px 32px #ffd70044', duration: 0.3});
+      });
+      card.addEventListener('mouseleave', () => {
+        gsap.to(card, {scale: 1, boxShadow: '0 2px 12px rgba(166,124,82,0.10)', duration: 0.3});
+      });
+    });
+  }, 120 * spices.length);
 }
 
 document.addEventListener("DOMContentLoaded", loadSpices);

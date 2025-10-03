@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHREE SIDDIVINAYAK ENTERPRISE - Premium Spices</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 </head>
 <body>
     <header>
-        <h1>SHREE SIDDIVINAYAK ENTERPRISE</h1>
+        <div class="logo-glow">
+            <h1>SHREE SIDDIVINAYAK ENTERPRISE</h1>
+        </div>
         <p class="subtitle">Premium Quality Spices & Masala</p>
         <nav>
             <a href="#catalog">Catalog</a>
@@ -36,6 +42,15 @@
     <footer>
         <p>&copy; 2025 SHREE SIDDIVINAYAK ENTERPRISE. All rights reserved.</p>
     </footer>
-    <script src="assets/script.js"></script>
+        <script src="assets/script.js"></script>
+        <script>
+            // GSAP Animations for premium branding
+            document.addEventListener("DOMContentLoaded", function() {
+                gsap.from("header .logo-glow h1", {duration: 1.2, scale: 0.8, opacity: 0, ease: "power3.out"});
+                gsap.from("header .subtitle", {duration: 1, y: -30, opacity: 0, delay: 0.5});
+                gsap.from("nav a", {duration: 0.8, y: -20, opacity: 0, stagger: 0.15, delay: 0.7});
+                gsap.from("section", {duration: 1, y: 40, opacity: 0, stagger: 0.2, delay: 1});
+            });
+        </script>
 </body>
 </html>
